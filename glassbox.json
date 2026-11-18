@@ -1,0 +1,115 @@
+{
+  "slug": "tidesclear",
+  "box": 235,
+  "date": "2026-12-02",
+  "title": "TidesClear",
+  "question": "How do tides work?",
+  "hook": "The Moon pulls the sea into two bulges, the Earth spins through them, and the Sun adds its own. Stretch the bulges, line up springs and neaps, tune a bay until it rings, and add five waves to predict a tide.",
+  "thumbText": "HOW TIDES WORK",
+  "field": "nature",
+  "minutes": 16,
+  "tags": [
+    "tides",
+    "moon",
+    "gravity",
+    "ocean",
+    "spring tide",
+    "neap tide",
+    "bay of fundy",
+    "tide prediction",
+    "nature",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A difference in gravity",
+      "text": "Gravity falls with the square of distance, so the Moon pulls the near side of the Earth about 3 percent harder than its centre, and the far side about 3 percent less. The tide comes from that difference, not from the pull itself. It stretches the ocean along the line to the Moon."
+    },
+    {
+      "title": "Two bulges, not one",
+      "text": "The leftover stretch points outward on both the near and the far side, and inward around the middle. So there are two bulges. The popular idea that the far one is made by centrifugal force does not hold up: every part of the Earth moves in the same-sized circle about the Earth-Moon centre of mass, so that effect is the same everywhere."
+    },
+    {
+      "title": "The Sun, springs and neaps",
+      "text": "The Sun is far heavier but about 390 times farther away, and tidal force falls with distance cubed, so the Sun's tide is about 46 percent of the Moon's. At new and full Moon the bulges add, giving spring tides. At the quarter Moons they cross, giving neaps. The cycle repeats about every 14.8 days."
+    },
+    {
+      "title": "The Earth spins through them",
+      "text": "The bulges stay pointed at the Moon while the Earth turns through them, so a coast sees two highs and two lows a day. The Moon moves on while the Earth turns, so the Earth needs about 50 extra minutes to face it again. The lunar day is about 24 h 50 min, and high tide comes about 50 minutes later each day."
+    },
+    {
+      "title": "Real oceans are not that simple",
+      "text": "Continents break the sea into basins with their own natural periods. A bay near the tide's own rhythm, such as the Bay of Fundy, amplifies it to as much as about 16 m, while the nearly closed Mediterranean has small tides. In big rotating oceans the tide wave circles an amphidromic point where the tide is almost zero."
+    },
+    {
+      "title": "Predicting by adding waves, and the Moon's slow escape",
+      "text": "Tide tables add a handful of cosine waves, such as M2, S2, N2, K1 and O1, each with a period set by the Moon and Sun and an amplitude and phase fitted to a port. Meanwhile friction drags the bulge slightly ahead of the Moon, slowing the Earth and pushing the Moon away by about 3.8 cm a year."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Tidal force",
+      "def": "The difference between the Moon's pull at a place and at the Earth's centre. It stretches the Earth toward and away from the Moon."
+    },
+    {
+      "term": "Equilibrium tide",
+      "def": "The tide a frictionless ocean covering the whole Earth would make: two bulges that follow the Moon. The real tide is shaped by coasts and basins."
+    },
+    {
+      "term": "Spring tide",
+      "def": "A large tide at new or full Moon, when the Sun's and Moon's bulges line up. Nothing to do with the season."
+    },
+    {
+      "term": "Neap tide",
+      "def": "A small tide at the quarter Moons, when the Sun's bulges cross the Moon's."
+    },
+    {
+      "term": "Lunar day",
+      "def": "About 24 h 50 min: the time for a place on Earth to turn back to face the Moon."
+    },
+    {
+      "term": "Semi-diurnal and diurnal",
+      "def": "Two highs a day, or one. Mixed tides have highs of unequal size."
+    },
+    {
+      "term": "Declination",
+      "def": "How far north or south of the equator the Moon is, up to about 28.5 degrees. It makes the two daily highs unequal."
+    },
+    {
+      "term": "Resonance",
+      "def": "A big response when a push matches a basin's natural period, as in the Bay of Fundy."
+    },
+    {
+      "term": "Amphidromic point",
+      "def": "A place in a rotating sea where the tide is almost nothing and the tide wave circles around it."
+    },
+    {
+      "term": "Tidal constituent",
+      "def": "One cosine wave in a tide, such as M2, with a period set by the motions of the Moon and Sun."
+    },
+    {
+      "term": "Tidal locking",
+      "def": "When a body spins once per orbit and always shows one face, as the Moon does to the Earth."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "tidesclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

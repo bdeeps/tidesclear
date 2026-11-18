@@ -1,0 +1,969 @@
+{
+  "title": "The history of the tides",
+  "tagline": "From a Greek sailor's reports and a Chinese tide chart to Newton's gravity, brass machines and a laser on the Moon.",
+  "intro": "Sailors knew for thousands of years that tides follow the Moon. What they lacked was a cause, and most early guesses were wrong. Newton gave gravity as the cause, but real oceans needed charts, harmonic sums and machines before tides could be predicted. Some early dates and authors are uncertain, and this history says so.",
+  "eras": [
+    {
+      "id": "ancient",
+      "name": "Ancient observers",
+      "from": -440,
+      "to": 100,
+      "color": "#c49bff",
+      "summary": "Greek and Roman writers record that tides follow the Moon, mostly from sailors' reports. Most of their original books are lost."
+    },
+    {
+      "id": "medieval",
+      "name": "Medieval reckoning and ports",
+      "from": 725,
+      "to": 1300,
+      "color": "#ffb547",
+      "summary": "Bede, Chinese scholars, Persian and Arab writers and monks make tide rules and tables. Nobody yet has a force to explain them."
+    },
+    {
+      "id": "newton",
+      "name": "From Kepler to Laplace",
+      "from": 1609,
+      "to": 1840,
+      "color": "#ff7a59",
+      "summary": "Kepler and Galileo argue, Newton explains the tides with gravity, and Laplace treats them as moving water. Charts of cotidal lines begin."
+    },
+    {
+      "id": "harmonic",
+      "name": "Harmonic analysis and machines",
+      "from": 1867,
+      "to": 1966,
+      "color": "#5ce1a9",
+      "summary": "Kelvin splits tides into cosine parts, gears add them up, and Liverpool's institute with its team of women computers produces tables for the world."
+    },
+    {
+      "id": "now",
+      "name": "Satellites, lasers and power",
+      "from": 1966,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "Computers take over the sums, lasers measure the Moon's retreat, satellites see tides across oceans and tides run power stations."
+    }
+  ],
+  "events": [
+    {
+      "year": -440,
+      "date": "c. 440 BCE",
+      "era": "ancient",
+      "art": "wave",
+      "title": "Herodotus notes a daily tide in the Red Sea",
+      "who": "Herodotus",
+      "where": "Greece and the Red Sea",
+      "country": "Greece",
+      "text": "In his Histories, Herodotus wrote that the Red Sea has an ebb and flow every day. He set this against the small tides of the Mediterranean, which Greeks knew well.",
+      "why": "It shows that Greek writers already knew tides differ a lot from sea to sea.",
+      "box": "real",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": -350,
+      "date": "c. 350 BCE",
+      "era": "ancient",
+      "art": "scroll",
+      "title": "Aristotle puzzles over the Euripus",
+      "who": "Aristotle",
+      "where": "Strait of Euripus, Greece",
+      "country": "Greece",
+      "text": "Aristotle tried to explain why the current in the Strait of Euripus reverses several times a day. Woodworth notes that weather would have muddied his data. Aristotle also knew that northern Europe has larger tides than the Mediterranean.",
+      "why": "It is an early attempt to explain a tide-driven current, even if the answer was not right.",
+      "box": "real",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": -325,
+      "date": "c. 325 BCE",
+      "era": "ancient",
+      "art": "boat",
+      "key": true,
+      "title": "Pytheas sails to the big Atlantic tides",
+      "who": "Pytheas of Massalia (Marseille)",
+      "where": "Bay of Biscay, Britain and the North Sea",
+      "country": "France",
+      "text": "Pytheas voyaged around the British Isles. He reported that Atlantic tides are far larger than Mediterranean ones, that there are two high tides per lunar day, and that their size depends on the Moon's phase. His book On the Ocean is lost and is known only from quotations. He also overstated British tides at about 36 m (120 ft).",
+      "why": "He gave the first recorded link between tides and the Moon's phases, from a sailor's own watching.",
+      "box": "sun",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": -325,
+      "date": "325 BCE",
+      "era": "ancient",
+      "art": "wave",
+      "title": "Alexander's army meets the Indus tidal bore",
+      "who": "Army of Alexander the Great",
+      "where": "Indus River, South Asia",
+      "country": "Pakistan",
+      "text": "Alexander's army was surprised by the large tides of the Indian Ocean. Woodworth reports that it was almost destroyed by a tidal bore on the Indus.",
+      "why": "Armies and sailors met big tides long before anyone could explain them.",
+      "box": "real",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": -150,
+      "date": "c. 150 BCE",
+      "era": "ancient",
+      "art": "earth",
+      "key": true,
+      "title": "Seleucus links tides to the Moon",
+      "who": "Seleucus of Seleucia",
+      "where": "Seleucia, Mesopotamia (exact town uncertain)",
+      "country": "Iraq",
+      "text": "Seleucus was an astronomer who argued for a Sun-centred system. He noted that the two daily tides in the Arabian Sea were unequal, and most unequal when the Moon was far from the equator. So the tides depended on the Moon. His own writings are lost, and we know him through Strabo and others. He also tied tides to a whirling Earth, which was not correct.",
+      "why": "He found a pattern in the tides that only the Moon's position could explain.",
+      "box": "pull",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": -100,
+      "date": "c. 100 BCE",
+      "era": "ancient",
+      "art": "wave",
+      "title": "Posidonius studies the tides at Cadiz",
+      "who": "Posidonius",
+      "where": "Gades (Cadiz), Spain",
+      "country": "Spain",
+      "text": "Posidonius went to the Atlantic coast of Spain to study the big tides. He found them twice daily and in step with the Moon, with springs and neaps at new and full Moon. He wrongly concluded they are largest at the summer solstice.",
+      "why": "A careful observer got most of the pattern right, and one detail wrong.",
+      "box": "sun",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 77,
+      "date": "77 CE",
+      "era": "ancient",
+      "art": "scroll",
+      "title": "Pliny gathers the old tide knowledge",
+      "who": "Pliny the Elder",
+      "where": "Rome",
+      "country": "Italy",
+      "text": "Pliny's Natural History used the findings of Seleucus and Posidonius. He concluded that the Sun's effect varies through the year, giving big spring tides near the equinoxes. He also noted the steady delay between the Moon's crossing and the next high tide.",
+      "why": "A widely read book carried the Moon-and-tides link to later Europe.",
+      "box": "sun",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 725,
+      "date": "725",
+      "era": "medieval",
+      "art": "quill",
+      "key": true,
+      "title": "Bede counts the tides against the Moon",
+      "who": "The Venerable Bede",
+      "where": "Jarrow, England",
+      "country": "England",
+      "text": "In The Reckoning of Time, Bede noted that in 12 lunar months of 354 days the sea rises and falls 684 times, not 708. So the tides follow the Moon, not the Sun. He saw that every place has its own timing relative to the Moon and that wind alters high water. His physical idea, the Moon blowing on the water, was wrong.",
+      "why": "It is the root of the 'establishment of the port', the local lag that tide tables still need.",
+      "box": "sun",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 770,
+      "date": "c. 770 (Dali era)",
+      "era": "medieval",
+      "art": "scroll",
+      "title": "Dou Shumeng writes a Chinese tide monograph",
+      "who": "Dou Shumeng",
+      "where": "Zhedong region, China",
+      "country": "China",
+      "text": "Dou Shumeng's Haitao zhi is the earliest surviving Chinese monograph on tides. Its full text survives in a Qing-dynasty book. A Chinese encyclopedia entry says he held that tides must follow the Moon, that each month has two spring and two neap cycles, and that each year has two large tides. It adds that he drew a chart for working out the day's high-tide time. We do not know his birth or death years.",
+      "why": "It shows Chinese scholars tying tides to the Moon and to calendars about 900 years before Newton.",
+      "box": "sun",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 850,
+      "date": "9th century",
+      "era": "medieval",
+      "art": "scroll",
+      "title": "Abu Ma'shar repeats the Moon's power",
+      "who": "Abu Ma'shar",
+      "where": "Persian world",
+      "country": "",
+      "text": "The Persian astrologer Abu Ma'shar (787-886) held, as Ptolemy had, that the Moon exerts a power on the waters. Woodworth gives this as one of the explanations of the age.",
+      "why": "Scholars of the Islamic world kept the Moon-and-tides idea alive.",
+      "box": "pull",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1150,
+      "date": "Southern Song, 1127-1279",
+      "era": "medieval",
+      "art": "wave",
+      "title": "Crowds watch the Qiantang bore",
+      "who": "People of Hangzhou",
+      "where": "Qiantang River, Hangzhou",
+      "country": "China",
+      "text": "A Zhejiang government page says tide watching was recorded as a popular activity under the Han (206 BCE to 220 CE). By the Southern Song, the court and commoners both took part. The navy paraded on the river on the 18th day of the eighth lunar month. Today the bore is said to reach up to 3.5 m.",
+      "why": "A tide became a festival tied to the lunar calendar.",
+      "box": "real",
+      "sources": [
+        23
+      ]
+    },
+    {
+      "year": 1230,
+      "date": "early 13th century (author uncertain)",
+      "era": "medieval",
+      "art": "scroll",
+      "title": "The St Albans tide table for London Bridge",
+      "who": "John of Wallingford (attributed)",
+      "where": "St Albans, England",
+      "country": "England",
+      "text": "A table gives the flood at London Bridge. It assumes high water 3 h 48 min after the Moon crosses the meridian at new and full Moon, and adds 48 min per day. It is not based on observations. Sources disagree on whether the author was an abbot who died in 1213 or a monk who died in 1245.",
+      "why": "It treats the Moon's clock as the tide's clock, the same idea as a modern predictor.",
+      "box": "sun",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1260,
+      "date": "13th century",
+      "era": "medieval",
+      "art": "scroll",
+      "title": "Al-Qazwini blames heating of the sea",
+      "who": "Zakariya al-Qazwini",
+      "where": "Arabian world",
+      "country": "",
+      "text": "In Wonders of Creation, al-Qazwini (1203-83) argued that the flowing tide is caused by the Sun and Moon heating the water, which makes it expand. Woodworth notes that he failed to explain the Moon's leading role.",
+      "why": "It is one of many ideas that tried to explain tides without a force.",
+      "box": "pull",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1609,
+      "date": "1609 (Somnium written 1608)",
+      "era": "newton",
+      "art": "apple",
+      "title": "Kepler suggests the Moon pulls the sea",
+      "who": "Johannes Kepler",
+      "where": "Central Europe",
+      "country": "Germany",
+      "text": "In Astronomia Nova (1609), Kepler wrote that if the Earth ceased to attract its waters they would rise to the Moon. In Somnium, written in 1608 and published in 1634, he said the Sun and Moon attract the oceans by a force like magnetism. Later he also wrote of Earth breathing, so his view is not tidy.",
+      "why": "It is the first modern guess that the Moon pulls the sea.",
+      "box": "pull",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1616,
+      "date": "1616 (Dialogue, 1632)",
+      "era": "newton",
+      "art": "ball",
+      "key": true,
+      "title": "Galileo offers a theory that gets the tides wrong",
+      "who": "Galileo Galilei",
+      "where": "Italy",
+      "country": "Italy",
+      "text": "In the Discourse on the Tides (1616) and the Dialogue of 1632, Galileo said tides come from the Earth's spin and orbit making the sea slosh like water in a barge. He dismissed the Moon. His theory predicts one tide a day, while most coasts have two, as Kepler told him.",
+      "why": "It was meant as proof the Earth moves, and its failure shows why tides needed a force.",
+      "box": "spin",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1644,
+      "date": "1644",
+      "era": "newton",
+      "art": "orbit",
+      "title": "Descartes tries a vortex theory",
+      "who": "Rene Descartes",
+      "where": "Europe",
+      "country": "France",
+      "text": "Descartes explained tides by a vortex of ether carrying the Moon. His was the only theory of its day to give two tides a lunar day. Newton later showed it was wrong, and it put low water under the Moon.",
+      "why": "It was an honest attempt at a physical cause before gravity was understood.",
+      "box": "pull",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1665,
+      "date": "1665-1666",
+      "era": "newton",
+      "art": "quill",
+      "title": "The first tide papers appear in a journal",
+      "who": "Robert Moray and John Wallis",
+      "where": "London, England",
+      "country": "England",
+      "text": "Robert Moray's 1665 paper on Hebrides tides was the first paper on tides in a scientific journal, the Philosophical Transactions. In 1666 John Wallis published the first paper there on tidal theory. Moray also suggested a float in a stilling well to measure tides.",
+      "why": "Tides became something to measure and argue about in print.",
+      "box": "real",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1670,
+      "date": "1670",
+      "era": "newton",
+      "art": "scales",
+      "title": "Childrey spots the perigee effect",
+      "who": "Joshua Childrey",
+      "where": "England",
+      "country": "England",
+      "text": "Childrey rejected Wallis's claim of larger tides in February and November. He noted that English sailors held the largest tides to be at the equinoxes. He was the first to note that high tides are also larger when the Moon is near perigee.",
+      "why": "It is an early sign that the Moon's distance matters.",
+      "box": "sun",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1687,
+      "date": "1687",
+      "era": "newton",
+      "art": "apple",
+      "key": true,
+      "title": "Newton explains the tides with gravity",
+      "who": "Isaac Newton",
+      "where": "England",
+      "country": "England",
+      "text": "Newton's Principia was published in 1687, paid for by Edmond Halley. In Books One and Three he explained spring and neap tides as the pull of both Moon and Sun, with springs larger still when the Moon is at perigee. He also covered the daily inequality and calculated the size of tidal motions. It took at least half a century for his theory to be widely accepted.",
+      "why": "It was the first theory of tides built on one law of gravity.",
+      "box": "pull",
+      "sources": [
+        0,
+        16,
+        1
+      ]
+    },
+    {
+      "year": 1740,
+      "date": "1740",
+      "era": "newton",
+      "art": "scales",
+      "title": "Paris Academy prize for tide essays",
+      "who": "Colin Maclaurin and Daniel Bernoulli",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "The Paris Academy of Sciences gave four recipients a prize for essays on the flood and ebb of the sea. Maclaurin showed that an ocean in equilibrium takes the shape of a rugby ball pointing at the body. Bernoulli's treatise brought in the Moon and Sun orbits and the Earth's rotation, and found a Moon-to-Sun tide ratio of 2.5.",
+      "why": "It turned Newton's idea into maths that could be used to compute tide tables.",
+      "box": "pull",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1770,
+      "date": "after 1767",
+      "era": "newton",
+      "art": "calculator",
+      "title": "Liverpool gets a reliable tide table",
+      "who": "Richard and George Holden",
+      "where": "Liverpool, England",
+      "country": "England",
+      "text": "After the Nautical Almanac began in 1767, the Holdens produced a public tide table for Liverpool. It used Bernoulli's method adjusted with four years of observations by dockmaster William Hutchinson. They kept the method secret, but Woodworth later showed it matched Bernoulli's.",
+      "why": "Theory started to produce tables that sailors and dockworkers could use.",
+      "box": "real",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1776,
+      "date": "1775-1776",
+      "era": "newton",
+      "art": "wave",
+      "key": true,
+      "title": "Laplace treats tides as moving water",
+      "who": "Pierre-Simon Laplace",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Laplace built a dynamic theory of tides, in which water moves on a spinning Earth. Newton's equilibrium picture ignores continents and the sea floor. Accounts differ on whether the theory was 1775 and the equations 1776, and Woodworth lists memoirs for both years. In the early 1800s he also saw that tides can be split into cosine terms.",
+      "why": "It is the base of all modern tide models.",
+      "box": "real",
+      "sources": [
+        1,
+        0,
+        3
+      ]
+    },
+    {
+      "year": 1833,
+      "date": "1833 (global chart 1836)",
+      "era": "newton",
+      "art": "earth",
+      "title": "Whewell draws cotidal lines",
+      "who": "William Whewell",
+      "where": "England",
+      "country": "England",
+      "text": "Whewell published an essay on a map of cotidal lines in the Philosophical Transactions in 1833. Cotidal lines join places where high water comes at the same time. He later expanded this to a nearly global chart in 1836.",
+      "why": "It gave the first picture of the tide as a wave travelling around oceans.",
+      "box": "real",
+      "sources": [
+        17,
+        18,
+        0
+      ]
+    },
+    {
+      "year": 1840,
+      "date": "1840",
+      "era": "newton",
+      "art": "compass",
+      "title": "A tide-free point is found in the North Sea",
+      "who": "Captain William Hewett",
+      "where": "North Sea",
+      "country": "United Kingdom",
+      "text": "Whewell had guessed that cotidal lines meet at a point with no rise or fall. Wikipedia says Captain William Hewett confirmed such a point from soundings in the North Sea in 1840.",
+      "why": "It showed that tides in real seas rotate around such points.",
+      "box": "real",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1867,
+      "date": "1867",
+      "era": "harmonic",
+      "art": "sinewave",
+      "key": true,
+      "title": "Kelvin reduces tides to harmonic parts",
+      "who": "William Thomson (Lord Kelvin)",
+      "where": "United Kingdom",
+      "country": "United Kingdom",
+      "text": "In 1867 the British Association set up a committee to promote harmonic analysis of tides, and Thomson wrote its report, published in 1868. The idea is to treat the tide as a sum of cosine curves, one for each motion of the Earth, Moon and Sun. NOAA today uses 37 such constituents.",
+      "why": "It made tides something you can calculate for any port from a record of past tides.",
+      "box": "real",
+      "sources": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "year": 1872,
+      "date": "1872-1873",
+      "era": "harmonic",
+      "art": "gear",
+      "key": true,
+      "title": "The first tide-predicting machine",
+      "who": "William Thomson, Edward Roberts and Alexander Legé",
+      "where": "United Kingdom",
+      "country": "United Kingdom",
+      "text": "Thomson, with Edward Roberts, designed a machine built by A. Legé and Co in 1872-73. It added ten cosine curves with gears and a pen. Turning a crank gave a year of tides for one harbour in about four hours. Over 30 such machines were built between the 1870s and the 1960s.",
+      "why": "It was a mechanical computer built to do one job, and it stayed in use for about a century.",
+      "box": "real",
+      "sources": [
+        9,
+        10,
+        6
+      ]
+    },
+    {
+      "year": 1919,
+      "date": "1919",
+      "era": "harmonic",
+      "art": "building",
+      "key": true,
+      "title": "The Liverpool Tidal Institute opens",
+      "who": "Joseph Proudman and Arthur Doodson",
+      "where": "Liverpool, England",
+      "country": "England",
+      "text": "The Tidal Institute was set up at the University of Liverpool in 1919. Joseph Proudman was its unpaid director and Arthur Doodson its secretary. Shipping patrons, such as the Booth brothers, paid for it. It became a world name in tide prediction, and its line runs into today's National Oceanography Centre.",
+      "why": "It made tide prediction a steady scientific job, not a hobby.",
+      "box": "real",
+      "sources": [
+        7,
+        8
+      ]
+    },
+    {
+      "year": 1921,
+      "date": "1921",
+      "era": "harmonic",
+      "art": "sinewave",
+      "title": "Doodson counts 388 tidal frequencies",
+      "who": "Arthur Doodson",
+      "where": "Liverpool, England",
+      "country": "England",
+      "text": "Wikipedia says Doodson's work of 1921 separated 388 tidal frequencies and brought in the Doodson numbers, a labelling system still used.",
+      "why": "It showed how many separate rhythms hide inside the tide.",
+      "box": "real",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1944,
+      "date": "June 1944",
+      "era": "harmonic",
+      "art": "boat",
+      "title": "Tide machines help plan D-Day",
+      "who": "Admiralty tidal staff and the Liverpool Tidal Institute",
+      "where": "Liverpool and London, England",
+      "country": "England",
+      "text": "Two Liverpool machines, the Roberts-Legé and the Bidston Kelvin, produced the D-Day predictions. They used only rough constants from the Admiralty. A Science Museum blog says planners wanted a late-rising Moon and a low tide before sunrise.",
+      "why": "Tide tables decided when ships and soldiers could approach a beach.",
+      "box": "real",
+      "sources": [
+        6,
+        9
+      ]
+    },
+    {
+      "year": 1950,
+      "date": "December 1950",
+      "era": "harmonic",
+      "art": "gear",
+      "title": "The Doodson-Legé machine is delivered",
+      "who": "Arthur Doodson",
+      "where": "Liverpool, England",
+      "country": "England",
+      "text": "The Doodson-Legé machine, delivered in December 1950, summed 42 constituents. The largest machine of all, built in Germany, had 62. The older Bidston Kelvin machine had 26 and the Roberts-Legé machine 33, later raised to 40.",
+      "why": "Machines kept getting more elaborate to catch smaller tidal components.",
+      "box": "real",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1959,
+      "date": "by 1959",
+      "era": "harmonic",
+      "art": "person",
+      "title": "Women do the tide sums",
+      "who": "Miss A. L. Cooper, Mrs Dennis, Joyce Scoffield and others",
+      "where": "Liverpool, England",
+      "country": "England",
+      "text": "Doodson's assistants, called computers, were usually female school leavers. Their number grew to 13 women by 1959. Miss A. L. Cooper was the first. She had worked for Doodson in London in the war and held a B.Sc. Mrs Dennis appears in photographs, and Joyce Scoffield was a junior computer in the early 1960s.",
+      "why": "Much of the work behind tide tables was done by women who are rarely named.",
+      "box": "real",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "year": 1966,
+      "date": "1966",
+      "era": "now",
+      "art": "calculator",
+      "title": "Digital computers replace predicting machines",
+      "who": "Coast and Geodetic Survey and others",
+      "where": "United States and United Kingdom",
+      "country": "United States",
+      "text": "NOAA says its machine No. 2 made US predictions from 1912 to 1965. In 1966 predicting machines gave way to digital electronic computers. By then over 30 mechanical machines had been built.",
+      "why": "The same cosine sums were now done by code.",
+      "box": "real",
+      "sources": [
+        3,
+        6
+      ]
+    },
+    {
+      "year": 1966,
+      "date": "26 November 1966",
+      "era": "now",
+      "art": "motor",
+      "title": "Rance tidal power station opens",
+      "who": "Electricite de France",
+      "where": "Rance estuary, Brittany",
+      "country": "France",
+      "text": "Charles de Gaulle opened the Rance station on 26 November 1966. Wikipedia calls it the world's first tidal power station. It has 24 turbines of 10 MW each, 240 MW in all. The site's average range is 8 m.",
+      "why": "It showed a tide could drive a big power plant for decades.",
+      "box": "friction",
+      "sources": [
+        13,
+        14
+      ]
+    },
+    {
+      "year": 1969,
+      "date": "1969",
+      "era": "now",
+      "art": "telescope",
+      "key": true,
+      "title": "Apollo 11 leaves a laser reflector on the Moon",
+      "who": "Apollo 11 astronauts",
+      "where": "Sea of Tranquility, Moon",
+      "country": "United States",
+      "text": "NASA says the first laser-ranging reflector was placed on the Moon in 1969. Timing laser pulses gives the distance. It shows the Moon moving away at about 3.8 cm a year, which NASA links to the effect of ocean tides on its orbit. Ranging precision improved from a few hundred mm to a few mm, with a median nightly accuracy of 1.7 mm from 2006 to 2020.",
+      "why": "It put a number on the Moon's slow escape, driven by the tides it raises.",
+      "box": "friction",
+      "sources": [
+        5,
+        20
+      ]
+    },
+    {
+      "year": 1984,
+      "date": "1984",
+      "era": "now",
+      "art": "waterdrop",
+      "title": "Annapolis taps Bay of Fundy tides",
+      "who": "Nova Scotia Power",
+      "where": "Annapolis Royal, Nova Scotia",
+      "country": "Canada",
+      "text": "The 20 MW Annapolis station opened in 1984 on an inlet where Fundy tides surge up the river, and shut in 2019. NASA says Fundy tides reach up to 12 m because the bay's sloshing time of 12 to 13 hours is close to the tidal rhythm. NOAA names Burntcoat Head as the site of the highest tides.",
+      "why": "It is a clear case of shape and resonance making a tide bigger.",
+      "box": "real",
+      "sources": [
+        22,
+        21,
+        19,
+        4
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "10 August 1992",
+      "era": "now",
+      "art": "telescope",
+      "title": "Topex/Poseidon measures the ocean from orbit",
+      "who": "NASA and CNES",
+      "where": "Kourou, French Guiana",
+      "country": "France",
+      "text": "The satellite was launched on 10 August 1992. It was built to measure sea level, and ocean tides came out as a data product. Its sea surface height accuracy was 4.3 cm, against a requirement of 13.4 cm.",
+      "why": "Tides could finally be checked across open oceans, not just at coasts.",
+      "box": "real",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 2011,
+      "date": "4 August 2011",
+      "era": "now",
+      "art": "motor",
+      "title": "Sihwa Lake becomes the largest tidal power station",
+      "who": "K-water",
+      "where": "Sihwa Lake, South Korea",
+      "country": "South Korea",
+      "text": "Sihwa Lake opened on 4 August 2011 with ten 25.4 MW turbines, 254 MW in all. It passed Rance, which had been the largest for 45 years.",
+      "why": "Tidal power has grown slowly, in only a handful of large sites.",
+      "box": "friction",
+      "sources": [
+        12,
+        13
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First paper on tides in a scientific journal",
+      "value": "1665",
+      "who": "Robert Moray, Philosophical Transactions"
+    },
+    {
+      "label": "First paper on tidal theory in a journal",
+      "value": "1666",
+      "who": "John Wallis, Philosophical Transactions"
+    },
+    {
+      "label": "First tide-predicting machine",
+      "value": "1872-73",
+      "who": "William Thomson, Edward Roberts and Alexander Legé, UK"
+    },
+    {
+      "label": "Earliest surviving Chinese tide monograph",
+      "value": "c. 770",
+      "who": "Dou Shumeng, China"
+    },
+    {
+      "label": "First laser reflector on the Moon",
+      "value": "1969",
+      "who": "Apollo 11 astronauts, USA"
+    },
+    {
+      "label": "Called the world's first tidal power station",
+      "value": "1966",
+      "who": "Rance, France"
+    }
+  ],
+  "people": [
+    {
+      "name": "Pytheas of Massalia",
+      "life": "c. 350-285 BCE",
+      "role": "Navigator and geographer",
+      "from": "Marseille, Greek Gaul",
+      "note": "His lost book told of big Atlantic tides and the Moon's phases."
+    },
+    {
+      "name": "Seleucus of Seleucia",
+      "life": "190-150 BCE (one source's dates)",
+      "role": "Astronomer",
+      "from": "Mesopotamia",
+      "note": "He tied the unequal daily tides of the Arabian Sea to the Moon."
+    },
+    {
+      "name": "Dou Shumeng",
+      "life": "",
+      "role": "Tide scholar",
+      "from": "Zhedong, China",
+      "note": "His Haitao zhi is the earliest surviving Chinese tide monograph."
+    },
+    {
+      "name": "The Venerable Bede",
+      "life": "672-735",
+      "role": "Monk and scholar",
+      "from": "Jarrow, England",
+      "note": "He showed by counting that tides follow the Moon, not the Sun."
+    },
+    {
+      "name": "Abu Ma'shar",
+      "life": "787-886",
+      "role": "Astrologer",
+      "from": "Persia",
+      "note": "He held that the Moon has a power over the waters."
+    },
+    {
+      "name": "Zakariya al-Qazwini",
+      "life": "1203-83",
+      "role": "Natural philosopher",
+      "from": "Arabian world",
+      "note": "He thought heating by Sun and Moon caused the flowing tide."
+    },
+    {
+      "name": "Galileo Galilei",
+      "life": "1564-1642",
+      "role": "Astronomer",
+      "from": "Italy",
+      "note": "His famous tide theory is wrong, but it tried to prove the Earth moves."
+    },
+    {
+      "name": "William Whewell",
+      "life": "1794-1866",
+      "role": "Polymath and tide researcher",
+      "from": "England",
+      "note": "He drew the first nearly global chart of cotidal lines."
+    },
+    {
+      "name": "Arthur Doodson",
+      "life": "1890-1968",
+      "role": "Tidal scientist",
+      "from": "England",
+      "note": "He led tide prediction at Liverpool and designed machines."
+    },
+    {
+      "name": "Miss A. L. Cooper",
+      "life": "",
+      "role": "First computer at the Liverpool Tidal Institute",
+      "from": "England",
+      "note": "A B.Sc. holder who had worked for Doodson in wartime London."
+    },
+    {
+      "name": "Joyce Scoffield",
+      "life": "",
+      "role": "Junior computer, early 1960s",
+      "from": "England",
+      "note": "One of the women whose sums fed the tide tables."
+    }
+  ],
+  "series": [
+    {
+      "id": "parts",
+      "title": "How many tidal parts people could handle",
+      "unit": "components",
+      "log": true,
+      "after": "harmonic",
+      "caption": "Kelvin's first machine added ten cosine curves; later machines summed more, and Doodson's analysis separated hundreds of frequencies.",
+      "points": [
+        {
+          "year": 1872,
+          "value": 10,
+          "label": "Kelvin's first machine: 10 components (Science Museum / IEEE Spectrum)"
+        },
+        {
+          "year": 1921,
+          "value": 388,
+          "label": "Doodson separates 388 tidal frequencies (analysis, not a machine; Wikipedia)"
+        },
+        {
+          "year": 1950,
+          "value": 42,
+          "label": "Doodson-Legé machine: 42 constituents (journal article, HGSS 2020)"
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Tidal power stations by installed power",
+      "unit": "MW",
+      "log": false,
+      "after": "now",
+      "caption": "Rance was the largest for 45 years. Sihwa passed it in 2011, and Annapolis was much smaller.",
+      "points": [
+        {
+          "year": 1966,
+          "value": 240,
+          "label": "Rance, France: 240 MW (Wikipedia, Power Technology)"
+        },
+        {
+          "year": 1984,
+          "value": 20,
+          "label": "Annapolis, Canada: 20 MW peak (OSTI, Wikipedia)"
+        },
+        {
+          "year": 2011,
+          "value": 254,
+          "label": "Sihwa Lake, South Korea: 254 MW (Guinness World Records)"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "Bede counted that in 12 lunar months the sea rises and falls 684 times, not 708, which showed the Moon leads the tides, not the Sun.",
+    "Strabo called Pytheas 'that arch-falsifier', and Pytheas's book was lost.",
+    "Galileo's theory predicts one tide a day, but most coasts have two.",
+    "A Kelvin machine could draw a year of tides for one harbour in about four hours.",
+    "NOAA's predictions sum 37 cosine curves, and a full year of data is needed to see all 37."
+  ],
+  "sources": [
+    {
+      "title": "Tidal science before and after Newton (Chapter 1 of A Journey Through Tides)",
+      "publisher": "National Oceanography Centre (P. L. Woodworth), Elsevier, 2023",
+      "url": "https://nora.nerc.ac.uk/id/eprint/533245/1/3-s2.0-B9780323908511000029-main.pdf"
+    },
+    {
+      "title": "Theory of tides",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Theory_of_tides"
+    },
+    {
+      "title": "Harmonic constituents",
+      "publisher": "NOAA Center for Operational Oceanographic Products and Services",
+      "url": "https://tidesandcurrents.noaa.gov/about_harmonic_constituents.html"
+    },
+    {
+      "title": "History of Tidal Analysis and Prediction",
+      "publisher": "NOAA Center for Operational Oceanographic Products and Services",
+      "url": "https://tidesandcurrents.noaa.gov/predhist.html"
+    },
+    {
+      "title": "Where is the highest tide?",
+      "publisher": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/highesttide.html"
+    },
+    {
+      "title": "Measuring the Moon's Distance",
+      "publisher": "NASA Goddard Space Flight Center, Eclipse Web Site",
+      "url": "https://eclipse.gsfc.nasa.gov/SEhelp/ApolloLaser.html"
+    },
+    {
+      "title": "Tide prediction machines at the Liverpool Tidal Institute",
+      "publisher": "History of Geo- and Space Sciences (Copernicus Publications), 2020",
+      "url": "https://hgss.copernicus.org/articles/11/15/2020/"
+    },
+    {
+      "title": "How the Liverpool Tidal Institute was established: industry, navy and academia",
+      "publisher": "History of Geo- and Space Sciences (Copernicus Publications), 2020",
+      "url": "https://hgss.copernicus.org/articles/11/139/2020/"
+    },
+    {
+      "title": "Our History",
+      "publisher": "National Oceanography Centre",
+      "url": "https://www.noc.ac.uk/who-we-are/our-history"
+    },
+    {
+      "title": "Rediscovering the collection: A journey through tides and currents",
+      "publisher": "Science Museum Group",
+      "url": "https://blog.sciencemuseumgroup.org.uk/rediscovering-the-collection-a-journey-through-tides-and-currents/"
+    },
+    {
+      "title": "Lord Kelvin's Tide-Predicting Machine",
+      "publisher": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/tide-predictions"
+    },
+    {
+      "title": "TOPEX/Poseidon (Topography Experiment/Poseidon)",
+      "publisher": "eoPortal (European Space Agency)",
+      "url": "https://www.eoportal.org/satellite-missions/topex-poseidon"
+    },
+    {
+      "title": "Highest capacity tidal power station",
+      "publisher": "Guinness World Records",
+      "url": "https://www.guinnessworldrecords.com/world-records/80419-most-powerful-tidal-power-station"
+    },
+    {
+      "title": "Rance Tidal Power Station",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rance_Tidal_Power_Station"
+    },
+    {
+      "title": "La Rance: learning from the world's oldest tidal project",
+      "publisher": "Power Technology",
+      "url": "https://www.power-technology.com/features/la-rance-learning-from-the-worlds-oldest-tidal-project/"
+    },
+    {
+      "title": "窦叔蒙 (Dou Shumeng)",
+      "publisher": "Wikipedia (Chinese)",
+      "url": "https://zh.wikipedia.org/zh-hans/%E7%AA%A6%E5%8F%94%E8%92%99"
+    },
+    {
+      "title": "Newton's Philosophiae Naturalis Principia Mathematica",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/newton-principia/"
+    },
+    {
+      "title": "William Whewell",
+      "publisher": "HET: The History of Economic Thought website",
+      "url": "https://www.hetwebsite.net/het/profiles/whewell.htm"
+    },
+    {
+      "title": "Cotidal map",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cotidal_map"
+    },
+    {
+      "title": "Massive Muddy Tides in the Bay of Fundy",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/massive-muddy-tides-in-the-bay-of-fundy-145784"
+    },
+    {
+      "title": "Fifteen years of millimeter accuracy lunar laser ranging with APOLLO: dataset characterization",
+      "publisher": "arXiv (Battat et al., 2023)",
+      "url": "https://arxiv.org/pdf/2304.11128"
+    },
+    {
+      "title": "Annapolis Royal Generating Station",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Annapolis_Royal_Generating_Station"
+    },
+    {
+      "title": "Tidal power plant begins operation in Nova Scotia",
+      "publisher": "OSTI, U.S. Department of Energy",
+      "url": "https://www.osti.gov/biblio/6067581"
+    },
+    {
+      "title": "Qiantang River tide: When the waters engulf the sun and sky",
+      "publisher": "Zhejiang provincial government (ezhejiang.gov.cn)",
+      "url": "http://www.ezhejiang.gov.cn/2016-08/16/c_557815.htm"
+    }
+  ]
+}
